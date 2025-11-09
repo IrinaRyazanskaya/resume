@@ -268,6 +268,108 @@ body {
   text-decoration: underline;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.about__intro-card {
+  padding: 24px;
+  border: 1px solid #dfe4ff;
+  border-radius: 16px;
+
+  background: linear-gradient(120deg, rgb(102 126 234 / 12%), rgb(118 75 162 / 8%));
+  box-shadow: 0 10px 25px rgb(102 126 234 / 12%);
+}
+
+.about__highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.about-highlight {
+  padding: 18px 20px;
+  border: 1px solid #ebe9ff;
+  border-radius: 12px;
+
+  background-color: #fdfdff;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 5%);
+}
+
+.about-highlight__label {
+  margin-bottom: 8px;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #5b62d6;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.about-card {
+  padding: 24px;
+  border: 1px solid #e8e8f5;
+  border-radius: 14px;
+  background-color: #f9f9ff;
+}
+
+.about-card__title {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  color: #3d3d5c;
+}
+
+.about-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-left: 0;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.about-card__list-item {
+  position: relative;
+  padding-left: 18px;
+}
+
+.about-card__list-item::before {
+  content: "";
+
+  position: absolute;
+  top: 0.6em;
+  left: 0;
+
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+
+  background-color: #667eea;
+}
+
+.about__previous {
+  padding: 22px 24px;
+  border: 1px dashed #c9c9e3;
+  border-radius: 14px;
+  background-color: #fff;
+}
+
+.about__previous-title {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #5b62d6;
+}
+
 @media (width <= 768px) {
   .header__content {
     flex-direction: column;
@@ -289,5 +391,11 @@ body {
   .job__period {
     margin-top: 5px;
     text-align: left;
+  }
+
+  .about__intro-card,
+  .about-card,
+  .about__previous {
+    padding: 18px;
   }
 }
