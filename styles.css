@@ -40,16 +40,18 @@ body {
   opacity: 0.95;
 }
 
-.contact {
+.header__contacts {
   margin-top: 15px;
 }
 
-.contact__link {
-  display: inline-block;
+.header__contact-link {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
 
   margin-top: 5px;
   margin-right: 15px;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
   border-bottom: 2px solid transparent;
 
   color: white;
@@ -58,7 +60,7 @@ body {
   transition: border-color 0.2s ease;
 }
 
-.contact__link:hover {
+.header__contact-link:hover {
   border-bottom-color: white;
 }
 
