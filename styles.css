@@ -85,119 +85,6 @@ body {
   margin-bottom: 15px;
 }
 
-.job {
-  margin-bottom: 30px;
-  padding: 20px;
-  border-left: 4px solid #667eea;
-  border-radius: 4px;
-
-  background-color: #f9f9f9;
-}
-
-.job__header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-
-  margin-bottom: 15px;
-}
-
-.job__info {
-  flex: 1;
-}
-
-.job__title {
-  margin-bottom: 10px;
-  font-size: 1.3rem;
-  color: #333;
-}
-
-.job__company {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-  color: #666;
-}
-
-.job__period {
-  font-style: italic;
-  color: #666;
-  text-align: right;
-}
-
-.job__duration {
-  font-weight: bold;
-  font-style: normal;
-}
-
-.job__list {
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-.job__list-item {
-  margin-bottom: 8px;
-}
-
-.project {
-  margin-bottom: 25px;
-  padding-left: 15px;
-}
-
-.project_standalone {
-  margin-bottom: 30px;
-  padding: 20px;
-  border-left: 4px solid #667eea;
-  border-radius: 4px;
-
-  background-color: #f9f9f9;
-}
-
-.project__title {
-  margin-bottom: 8px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #2c3e50;
-}
-
-.project__tasks-label {
-  font-weight: bold;
-}
-
-.project__list {
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-.project__list-item {
-  margin-bottom: 8px;
-}
-
-.project__repo-label {
-  font-weight: bold;
-}
-
-.project__repo-block {
-  margin-top: 10px;
-}
-
-.tech-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
-}
-
-.tech-stack__item {
-  padding: 5px 12px;
-  border-radius: 15px;
-
-  font-size: 0.85rem;
-  color: white;
-
-  background-color: #667eea;
-}
-
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -214,58 +101,6 @@ body {
   display: block;
   margin-bottom: 5px;
   color: #667eea;
-}
-
-.education {
-  margin-bottom: 15px;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
-
-.education__year {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #667eea;
-}
-
-.education__title {
-  margin-bottom: 10px;
-  font-size: 1.3rem;
-  color: #333;
-}
-
-.education__department {
-  margin-bottom: 5px;
-}
-
-.education__specialty {
-  margin-bottom: 5px;
-}
-
-.education__specialty-label {
-  font-weight: bold;
-}
-
-.education__location {
-  font-style: italic;
-}
-
-.education__subtitle {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-size: 1.3rem;
-  color: #333;
-}
-
-.link {
-  color: #667eea;
-  text-decoration: none;
-  word-break: break-all;
-}
-
-.link:hover {
-  text-decoration: underline;
 }
 
 .about {
@@ -368,6 +203,171 @@ body {
   margin-bottom: 8px;
   font-size: 1.1rem;
   color: #5b62d6;
+}
+
+.job {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+
+  background-color: #f9f9f9;
+}
+
+.job__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+}
+
+.job__info {
+  flex: 1;
+}
+
+.job__title {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.job__company {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.job__period {
+  font-style: italic;
+  color: #666;
+  text-align: right;
+}
+
+.job__duration {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.project {
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.project__title {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.project__tasks-label {
+  font-weight: bold;
+}
+
+.project__list {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.project__list-item {
+  margin-bottom: 8px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tech-stack__item {
+  padding: 5px 12px;
+  border-radius: 15px;
+
+  font-size: 0.85rem;
+  color: white;
+
+  background-color: #667eea;
+}
+
+.project__repo-block {
+  margin-top: 10px;
+}
+
+.project__repo-label {
+  font-weight: bold;
+}
+
+.link {
+  color: #667eea;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.job__list {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.job__list-item {
+  margin-bottom: 8px;
+}
+
+.project_standalone {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+
+  background-color: #f9f9f9;
+}
+
+.education {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.education__year {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.education__title {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.education__department {
+  margin-bottom: 5px;
+}
+
+.education__specialty {
+  margin-bottom: 5px;
+}
+
+.education__specialty-label {
+  font-weight: bold;
+}
+
+.education__location {
+  font-style: italic;
+}
+
+.education__subtitle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color: #333;
 }
 
 @media (width <= 768px) {
