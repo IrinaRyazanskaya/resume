@@ -306,6 +306,11 @@ body {
   margin-bottom: 12px;
 }
 
+.project__links {
+  display: inline-flex;
+  gap: 4px;
+}
+
 .project__title {
   font-size: 1.1rem;
   font-weight: 600;
@@ -355,7 +360,9 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .project__repo-link:hover {
